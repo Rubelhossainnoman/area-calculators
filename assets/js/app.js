@@ -51,6 +51,9 @@ area_form.onsubmit = (event) => {
     } else if(area_select.value == 'Circle') {
         details_area.innerHTML = arecal(area_select.value, +radious);
     }
+    if (area_select.value == '') {
+        details_area.innerHTML = set_alert('Please select a one value on select box','danger');
+    }
 }
 
 

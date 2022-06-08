@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+
+    <title>Js Class 15 part two</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body>
+
+      <!-- Area Calculator -->
+
+      <div class="dream_calculator my-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12"></div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="start_area_calculator">
+                <div class="card shadow">
+                  <div class="card-header">
+                    <h3 class="text-center">Area Calculator</h3>
+                  </div>
+                  <div class="card-body">
+                    <form action="" id="area_form">
+                      <div class="my-1">
+                        <label class="my-2" for="">Select Your Area</label>
+                        <select id="area_select" class="form-select" aria-label="Default select example">
+                          <option selected> -Select- </option>
+                          <option value="Rectangle">Rectangle</option>
+                          <option value="Square">Square</option>
+                          <option value="Tringle">Tringle</option>
+                          <option value="Circle">Circle</option>
+                        </select>
+                      </div>
+                      <div class="rec">
+                        <div class="my-1">
+                          <label class="my-1" for="">Length</label>
+                          <input id="length" class="form-control" type="text" placeholder="Type your Length">
+                        </div>
+                        <div class="my-1">
+                          <label class="my-1" for="">Width</label>
+                          <input id="width" class="form-control" type="text" placeholder="Type your Length">
+                        </div>
+                      </div>
+                      <div class="squ">
+                        <div class="my-1">
+                          <label class="my-1" for="">Bahu</label>
+                          <input id="bahu" class="form-control" type="text" placeholder="Type your Length">
+                        </div>
+                      </div>
+                      <div class="tri">
+                        <div class="my-1">
+                          <label class="my-1" for="">Base</label>
+                          <input id="base" class="form-control" type="text" placeholder="Type your Length">
+                        </div>
+                        <div class="my-1">
+                          <label class="my-1" for="">Height</label>
+                          <input id="height" class="form-control" type="text" placeholder="Type your Length">
+                        </div>
+                      </div>
+                      <div class="cir">
+                        <div class="my-1">
+                          <label class="my-1" for="">Radious</label>
+                          <input id="radious" class="form-control" type="text" placeholder="Type your Length">
+                        </div>
+                      </div>
+                      <button id="submit_button" class="btn btn-primary my-3">Check Your Area</button>
+                    </form>
+                  </div>
+                  <div class="card-footer">
+                    <div id="details_area" class="text-center">Result</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12"></div>
+          </div>
+        </div>
+      </div>
+
+ 
+
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/js/function.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
